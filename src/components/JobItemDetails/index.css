@@ -1,0 +1,121 @@
+.job-item-details-container {
+  height: 100%;
+  padding: 5%;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.api-fail-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.job-item-container {
+  background-color: #202020;
+  padding: 5%;
+  width: 100%;
+  color: #fff;
+}
+
+.company-logo-div {
+  display: flex;
+  align-items: center;
+
+  font-weight: bold;
+}
+
+.star-rating {
+  margin-left: 3px;
+}
+
+.description-link-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-container {
+  display: flex;
+  color: #6366f1;
+  align-items: center;
+}
+
+.ext-link {
+  color: #6366f1;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.skills-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.skill-item-container {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.skill-item-container img {
+  height: 50px;
+  width: 50px;
+  margin-right: 15px;
+}
+
+.skill-item-container p {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.life-at-company-div {
+  display: flex;
+  width: 100%;
+}
+
+.life-para {
+  width: 60%;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+.life-image-div {
+  width: 40%;
+}
+
+.desc-g {
+  font-size: 20px;
+}
+
+.life-image {
+  width: 100%;
+}
+
+.similar-jobs-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.similar-job-item-container {
+  background-color: #202020;
+  padding: 2%;
+  width: 30%;
+  margin: 10px;
+  color: #fff;
+  border-radius: 10px;
+}
