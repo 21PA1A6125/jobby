@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "engines": {
-    "node": "^10.13 || 12 || 14 || 15",
+    "node": "22.x",
     "npm": ">=6"
   },
   "dependencies": {
@@ -43,7 +43,7 @@
     "*.js": [
       "npm run lint:fix"
     ],
-    "*.{js, jsx, json, html, css}": [
+    "*.{js,jsx,json,html,css}": [
       "npm run format"
     ]
   },
@@ -71,3 +71,4 @@
     ]
   }
 }
+
